@@ -1,15 +1,15 @@
 ---
 author: Sat Naing
 pubDatetime: 2022-09-23T04:58:53Z
-modDatetime: 2025-03-20T03:15:57.792Z
-title: How to configure AstroPaper theme
+modDatetime: 2025-09-01T03:15:57.792Z
+title: Redesigning My School's Firefly - It looked ugly before!
 slug: how-to-configure-astropaper-theme
 featured: true
 draft: false
 tags:
   - configuration
   - docs
-description: How you can make AstroPaper theme absolutely yours.
+description: Redesigned my school’s Firefly platform using Figma to improve usability, navigation, and well, how it looked!
 ---
 
 AstroPaper is a highly customizable Astro blog theme. With AstroPaper, you can customize everything according to your personal taste. This article will explain how you can make some customizations easily in the config file.

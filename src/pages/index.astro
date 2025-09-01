@@ -24,7 +24,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <Header />
   <main id="main-content" data-layout="index">
     <section id="hero" class="pt-10 pb-6">
-      <div class="flex items-center space-x-4 -mb-5">
+      <div class="-mb-5 flex items-center space-x-4">
         <img
           src="/src/assets/icons/RYAN.png"
           alt="Profile Picture"
@@ -78,12 +78,21 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       featuredPosts.length > 0 && (
         <>
           <section id="featured" class="pt-12 pb-6">
-            <h2 class="text-2xl font-semibold tracking-wide">Projects</h2>
+            <h2 class="text-2xl font-semibold tracking-wide">
+              Take a look at some projects!
+            </h2>
             <ul>
               {featuredPosts.map(data => (
                 <Card variant="h3" {...data} />
               ))}
             </ul>
+
+            <div class="my-8 text-center">
+              <LinkButton href="/posts/">
+                There's more!
+                <IconArrowRight class="inline-block rtl:-rotate-180" />
+              </LinkButton>
+            </div>
           </section>
           {recentPosts.length > 0 && <Hr />}
         </>

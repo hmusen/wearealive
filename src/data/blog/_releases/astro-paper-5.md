@@ -1,12 +1,12 @@
 ---
 pubDatetime: 2025-03-08T08:18:19.693Z
-title: AstroPaper 5.0
+title: LiveDocs - A Google Docs Clone
 slug: astro-paper-v5
 featured: true
 ogImage: ../../../assets/images/AstroPaper-v5.png
 tags:
   - release
-description: "AstroPaper v5: keep the clean look, updates under the hood."
+description: "Tested my use of different frameworks, including React w/ NextJS, to build LiveDocs, A clone of Google docs which has sharing functionality and comments"
 ---
 
 At last, the long-awaited AstroPaper v5 is finally here. AstroPaper v5 keeps the same minimal & clean look, but comes with significant updates under the hood.
